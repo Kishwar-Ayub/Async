@@ -21,7 +21,7 @@ Future needs to be run on an executor,so that a task may be done.Other ececuters
  Here, in four steps he created an application:<br/>
 	
  1) Making a new directory,
- 2) Adding dependies,
+ 2) Adding dependencies,
  3) Fetching data from a url,
  4) Extend it!
 
