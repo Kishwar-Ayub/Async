@@ -11,11 +11,15 @@ Multithreading is perfect for CPU intensive tasks that can be use across differe
 <br/>
 
 Then he explained an example of execution of async fn!<br/>
+
 Future needs to be run on an executor,so that a task may be done.Other ececuters are Join, block_on etc.
 <br/>
+
  We need to reach out to external library to do asynchronous programmming in Rust The standard library does not come with an executor, so we need to reach out to an external crate.<br/>
- The executor takes care of executing the futures, polling them and returnig their results when they're done.<br/>
- Here, in four steps he created an application: 
+ 
+	The executor takes care of executing the futures, polling them and returnig their results when they're done.<br/>
+ Here, in four steps he created an application:<br/>
+	
  1) Making a new directory,
  2) Adding dependies,
  3) Fetching data from a url,
